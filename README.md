@@ -1,4 +1,6 @@
-# Dockerfile for AUI
+# Dockerfile for Angular 8 tests
+
+Based/forked from  [docker-node-jdk-chrome-firefox](https://bitbucket.org/atlassian/docker-node-jdk-chrome-firefox)
 
 This Dockerfile contains:
 
