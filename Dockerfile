@@ -1,9 +1,5 @@
 FROM buildpack-deps:jessie-scm
 
-# Install Java 8
-
-RUN echo 'deb http://httpredir.debian.org/debian jessie-backports main' >> /etc/apt/sources.list.d/jessie-backports.list
-
 RUN set -x \
     && apt-get update \
     && apt-get install -y \
